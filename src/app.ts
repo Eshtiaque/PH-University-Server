@@ -27,6 +27,7 @@ import cookieParser from 'cookie-parser'
 
 const app: Application = express()
 
+
 //parsers
 app.use(express.json());
 app.use(cors());
